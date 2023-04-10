@@ -18,7 +18,6 @@ function Product() {
          <Header
             className="layoutHeader"
             title="Product Detail"
-            slogan="An example made by Vite."
          />
          <ProductDetail product={product} className="layoutContent" />
          <Footer className="layoutFooter" />
