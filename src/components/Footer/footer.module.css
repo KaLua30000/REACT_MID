@@ -3,23 +3,14 @@
    padding-right: 1rem;
    padding-left: 1rem;
    grid-template-areas: 
-     'content followUs contactUs'
-     'copyRight copyRight copyRight'
+     'content content followUs'
    ;
-   grid-template-rows: auto 3rem;
    grid-template-columns: 12fr 2fr minmax(7rem, 1fr);
-   gap: 1em,        
-}
-
-.hrFooterLine {
-   margin: 25px auto 30px;
-   padding: 0;
-   width: 100%;
-   border: 0;
-   border-top: solid 2px;
-   border-color: #3e3f97;
-   opacity: 1;
-   border-radius: 0.2rem;
+   gap: 1em;
+   background-color: #F1EBEE; 
+   border-radius: 1rem;
+   color: gray;
+   opacity: 0.8;
 }
 
 .content {
@@ -46,14 +37,4 @@
    height: 2rem;
    background-color: aliceblue;
    border-radius: 1rem;
-}
-
-.copyRight {
-   grid-area: copyRight;
-   height: 4rem;
-   color: white;
-   opacity: 0.6;
-   display: flex;
-   justify-content: center;
-   align-items: flex-start;
 }

@@ -12,16 +12,6 @@ function ProductDetail({ product }) {
       >
          <Col
             xs={{ span: 24 }}
-            lg={{ span: 6 }}
-         >
-            <img
-               alt={product.name}
-               className={styles.image}
-               src={product.image}
-            />
-         </Col>
-         <Col
-            xs={{ span: 24 }}
             lg={{ span: 14 }}
          >
             <div className={styles.info} >
@@ -35,29 +25,18 @@ function ProductDetail({ product }) {
                   {product.description_long}
                </p>
                <div className={styles.wrap}>
-                  <p className={styles.price} >
-                     US${product.price}.00
-                  </p>
-                  <p className={styles.status}>
-                     Status: {product.countInStock > 0 ? "In Stock" : "Unavailable."}
-                  </p>
-                  <div className={styles.qty}>
-                     Qty: {"   "}
-                     <Select
-                        defaultValue={qty}
-                        key={qty}                        
-                        className={styles.selectStyle}
-                        onChange={val => setQty(val)}
-                     >
-                        {[...Array(product.countInStock).keys()].map((x) => (
-                           <Option key={x + 1} value={x + 1}>
-                              {x + 1}
-                           </Option>
-                        ))}
-                     </Select>
-                  </div>
                </div>
             </div>
+         </Col>
+         <Col
+            xs={{ span: 24 }}
+            lg={{ span: 6 }}
+         >
+            <img
+               alt={product.name}
+               className={styles.image}
+               src={product.image}
+            />
          </Col>
       </Row>
    );

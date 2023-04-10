@@ -1,8 +1,12 @@
+img{
+   border-radius: 1rem;
+}
 .item {
    background-color: #111828;
-   border-radius: 1%;
+   border-radius: 1rem;
    border: solid gray 1px;
    padding: 0;
+   background-color: gray;
 }
 
 .info {
@@ -18,6 +22,7 @@
 .name {
    color: white;
    margin-bottom: 0.5rem;
+   text-align:center;
 }
 
 .description {

@@ -1,9 +1,10 @@
 .header {
+  margin: 1rem 0;
   text-align: center;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  background-color: aquamarine;
+  background-color: #EEE5E9;
   border-radius: 0.5rem;
 }
 
@@ -16,8 +17,9 @@
   opacity: 0.8;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
-  background-color: aqua;
-  border-radius: 1rem;
+  background-color: #383D3B;
+  border-radius: 3rem;
+  white-space: nowrap;
 }
 
 
@@ -28,7 +30,7 @@
   }
 
   .navmenu {
-    background-color: aquamarine;
+    background-color: #EEE5E9;
     border-radius: 0.5rem;
   }
 
@@ -48,7 +50,7 @@
   opacity: 0.8;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
-  background-color: aqua;
+  background-color: #7C7C7C;
   border-radius: 1rem;
   white-space: nowrap;
   flex-wrap: nowrap;
@@ -59,20 +61,20 @@
   margin: 1rem;
   padding: 0.5rem;
   cursor: pointer;
-  color: white;
+  color: #383D3B;
   opacity: 0.8;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
-  background-color: beige;
+  background-color: rgb(238, 238, 227);
   border-radius: 1rem;
   flex-wrap: nowrap;
   white-space: nowrap;
 }
 
 .navItem:hover {
-  color: white;
+  color: #383D3B;
   opacity: 1;
-  background-color: beige;
+  background-color: rgb(238, 238, 227);
 }
 
 .navmenu {

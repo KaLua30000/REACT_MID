@@ -19,15 +19,6 @@ export default function ProductItem({ product }) {
             <h2 className={styles.name}>
                {product.name}
             </h2>
-            <div className={styles.more}>
-               <Link to={`/products/id/${product.id}`} className={styles.link}>
-                  See More ...
-               </Link>
-               <span
-                  className={styles.textGray}>
-                  USD {product.price}.00
-               </span>
-            </div>
          </div>
       </div>
    );

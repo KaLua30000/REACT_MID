@@ -42,7 +42,7 @@
 body {
   font-size: 16px;
   line-height: 1.6;
-  background-color: #111828;
+  background:radial-gradient(circle farthest-corner at left,#52DEE5,#22d481);
   color: white;
 }
 
@@ -65,7 +65,7 @@ body {
   padding: 0;
   height: auto;
   line-height: 1.6;
-  background-color: #111828;
+  background:radial-gradient(circle farthest-corner at left,#52DEE5,#52e5a8);
 }
 
 .layoutFooter {

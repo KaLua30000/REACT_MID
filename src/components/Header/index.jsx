@@ -9,7 +9,7 @@ export default function Header() {
         <div className={styles.header}>
             <Link to="/" style={{ textDecoration: 'none' }}>
                 <div className={styles.headerTitle}>
-                    HOME
+                    首頁
                 </div>
             </Link>
             <div className={styles.navmenu}>
@@ -17,13 +17,13 @@ export default function Header() {
                     className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                     物品清單
                 </NavLink>
-                <NavLink to="/products/cookware"
+                <NavLink to="/NONE"
                     className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                     還沒東西
                 </NavLink>
-                <NavLink to="/products/home-accessories"
+                <NavLink to="/LOGIN"
                     className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
-                    登入嗎？
+                    也不能登入
                 </NavLink>
             </div>
         </div>
