@@ -13,7 +13,7 @@
   padding: 0.5rem;
   cursor: pointer;
   color: white;
-  opacity: 0.6;
+  opacity: 0.8;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
   background-color: aqua;
@@ -31,20 +31,27 @@
     background-color: aquamarine;
     border-radius: 0.5rem;
   }
+
+  .navItem {
+
+    white-space: nowrap;
+    flex-wrap: nowrap;
+  }
 }
 
 .navItem {
   font-size: 2rem;
   margin: 1rem;
-  padding: 0.5rem;
+  padding:  0.5rem;
   cursor: pointer;
   color: white;
-  opacity: 0.6;
+  opacity: 0.8;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
   background-color: aqua;
   border-radius: 1rem;
   white-space: nowrap;
+  flex-wrap: nowrap;
 }
 
 .navItemActive {
@@ -53,16 +60,19 @@
   padding: 0.5rem;
   cursor: pointer;
   color: white;
-  opacity: 0.6;
+  opacity: 0.8;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
-  background-color: aqua;
+  background-color: beige;
   border-radius: 1rem;
+  flex-wrap: nowrap;
+  white-space: nowrap;
 }
 
 .navItem:hover {
   color: white;
   opacity: 1;
+  background-color: beige;
 }
 
 .navmenu {

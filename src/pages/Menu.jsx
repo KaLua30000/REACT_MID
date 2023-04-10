@@ -19,7 +19,7 @@ function Menu() {
     
   return (
     <div className="container mainLayout">
-      <Helmet><title>{title}</title></Helmet>
+      <Helmet><title>Menu</title></Helmet>
       <Header 
         className="layoutHeader"
         title={title}

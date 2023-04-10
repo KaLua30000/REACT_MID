@@ -19,9 +19,6 @@ export default function ProductItem({ product }) {
             <h2 className={styles.name}>
                {product.name}
             </h2>
-            <p className={styles.description}>
-               {product.description}
-            </p>
             <div className={styles.more}>
                <Link to={`/products/id/${product.id}`} className={styles.link}>
                   See More ...

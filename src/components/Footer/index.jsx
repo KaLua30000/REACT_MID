@@ -14,7 +14,7 @@ export default function Footer() {
                     <p style={{fontWeight: 800}}>FOLLOW US</p>
                     <div className={styles.iconsArea}>
                         <a href="#">
-                            <img className={styles.icon} src="/images/nn-icon-twitter.svg" alt="twitter" />
+                            <img className={styles.icon} src="/images/twitter-circled.png" alt="twitter" />
                         </a>
                     </div>
                 </div>

@@ -56,9 +56,6 @@ function ProductDetail({ product }) {
                         ))}
                      </Select>
                   </div>
-                  <p className={styles.qty}>
-                     Total Price: {product.price * qty}
-                  </p>
                </div>
             </div>
          </Col>
