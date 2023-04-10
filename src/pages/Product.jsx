@@ -14,7 +14,7 @@ function Product() {
 
    return (
       <div className="container mainLayout">
-         <Helmet><title>product</title></Helmet>
+         <Helmet><title>fishes</title></Helmet>
          <Header
             className="layoutHeader"
             title="Product Detail"
